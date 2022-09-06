@@ -65,9 +65,6 @@ Below is a description of all the files included in this tutorial.
 6. `schema.json` - contains the schema for our database
 7. `helper.py` - contains helper functions to clean and format out data
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [product-screenshot]: images/appDemo.png
