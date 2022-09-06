@@ -1,4 +1,4 @@
-<h1 style='text-align: center; color: pink;'>COVID-19 Publications Weaviate Demo App</h1>
+<h1 align="center" color= "pink">COVID-19 Publications Weaviate Demo App</h1>
 
 <!-- ABOUT THE PROJECT -->
 ## In this project we will upload COVID-19 related academic publications to Weaviate, a vector database, and then query for publications related to specific topics. The goal is to create a tool that can help people search for scientifically accurate articles related to COVID.
