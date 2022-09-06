@@ -1,7 +1,6 @@
 # Name - Version
 pandas==1.0.3
 pip==22.1.2
-python==3.8.13 
 streamlit==1.12.2
 tqdm==4.64.0
 weaviate-client==3.2.2
