@@ -1,0 +1,78 @@
+{
+    "classes": [
+        {
+            "class": "Publication",
+            "description": "A covid related academic publication",
+            "properties": [
+                {
+                    "name": "title",
+                    "description": "The title of the publication",
+                    "dataType": [
+                        "text"
+                    ]
+                },
+                {
+                    "name": "abstract",
+                    "description": "The abstract of the publication",
+                    "dataType": [
+                        "text"
+                    ]
+                },
+                {
+                    "name": "hasAuthors",
+                    "description": "The authors this publication has",
+                    "dataType": [
+                        "Author"
+                    ]
+                },
+                {
+                    "name": "inJournal",
+                    "description": "The journal this was published in",
+                    "dataType": [
+                        "Journal"
+                    ]
+                }
+            ]
+        },
+        {
+            "class": "Author",
+            "description": "An academic author of a covid related publication",
+            "properties": [
+                {
+                    "name": "name",
+                    "dataType": [
+                        "string"
+                    ],
+                    "description": "The name of the author",
+                },
+                {
+                    "name": "wrotePublication",
+                    "dataType": [
+                        "Publication"
+                    ],
+                    "description": "The publications of the author",
+                }
+            ]
+        },
+        {
+            "class": "Journal",
+            "description": "An academic journal",
+            "properties": [
+                {
+                    "name": "name",
+                    "dataType": [
+                        "string"
+                    ],
+                    "description": "The name of the Journal",
+                },
+                {
+                    "name": "hasPublication",
+                    "dataType": [
+                        "Publication"
+                    ],
+                    "description": "The publications in the journal",
+                }
+            ]
+        }
+    ]
+}
