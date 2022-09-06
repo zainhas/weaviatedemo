@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 4. Run the `import.py` file in a terminal, which will ask you for your WCS credentials and to name your weaviate cluster to be created. This script will then create the weaviate cluster and upload data to it.
    ```sh
-   python import.py;
+   python import.py
    ```
    You should see the following output in your terminal:
    
@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
    
 5. Run the `import.py` file which will ask you for your WCS credentials and to name your weaviate cluster to be created. This script will then create the weaviate cluster and upload data to it.
    ```sh
-   streamlit run covidQueryApp.py;
+   streamlit run covidQueryApp.py
    ```
    You should see the following output in your terminal:
    
