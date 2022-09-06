@@ -1,9 +1,10 @@
 <h1 align="center">COVID-19 Publications Weaviate Demo App</h1>
 
 <!-- ABOUT THE PROJECT -->
-<h3 align="center">In this project we will upload COVID-19 related academic publications to Weaviate, a vector database, and then query for publications related to specific topics. The goal is to create a tool that can help people search for scientifically accurate articles related to COVID.</h3>
+<h3 align="center">In this project we will upload COVID-19 related academic publications to Weaviate, a vector database, and then query for publications related to specific topics. The goal is to create a tool that can help people search for scientifically accurate articles related to COVID.
 
 ![Product Name Screen Shot][product-screenshot]
+</h3>
 
 ### This tutorial will help you understand:
 1. How the weaviate platform works
