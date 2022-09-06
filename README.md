@@ -46,7 +46,6 @@ To get a local copy up and running follow these simple steps.
    <img src="images/term1.png">
    
 6. You can now navigate to the Local URL where your demo app is launched. You will need to provide the same weaviate cluster name to connect to it.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 7. Enter topics to query COVID related publication with. You can even expand the articles to read thier abstracts!
 
