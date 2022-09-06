@@ -25,9 +25,11 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/zainhas/weaviatedemo.git
    ```
-3. Install requirements in a new conda virtual environment
+3. Create a new conda virtual environment with `python=3.8.13` then install the requirements
    ```sh
-   conda install --file requirements.txt
+   conda create -n mynewenv python=3.8.13
+   conda activate mynewenv
+   python -m pip install -r requirements.txt
    ```
    
 4. Download the `covid_articles.csv` data file from [here](https://drive.google.com/file/d/1mgoiKSavy0GAGdejxfA0yjX-cgTuCUfG/view?usp=sharing) and place it in the `data` folder.
