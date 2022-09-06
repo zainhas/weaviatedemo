@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple steps.
    
    <img src="images/term0.png">
    
-5. Run the `import.py` file which will ask you for your WCS credentials and to name your weaviate cluster to be created. This script will then create the weaviate cluster and upload data to it.
+5. Run the `covidQueryApp.py` streamlit app which will start the streamlit app.
    ```sh
    streamlit run covidQueryApp.py
    ```
