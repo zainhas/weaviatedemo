@@ -1,7 +1,7 @@
-<h1 align="center" color= "pink">COVID-19 Publications Weaviate Demo App</h1>
+<h1 align="center">COVID-19 Publications Weaviate Demo App</h1>
 
 <!-- ABOUT THE PROJECT -->
-## In this project we will upload COVID-19 related academic publications to Weaviate, a vector database, and then query for publications related to specific topics. The goal is to create a tool that can help people search for scientifically accurate articles related to COVID.
+<h3 align="center">In this project we will upload COVID-19 related academic publications to Weaviate, a vector database, and then query for publications related to specific topics. The goal is to create a tool that can help people search for scientifically accurate articles related to COVID.</h3>
 
 ### This tutorial will help you understand:
 1. How the weaviate platform works
@@ -10,7 +10,7 @@
 4. How to upload data to the weaviate cluster using batches
 5. How we can create a Streamlit app that can be used to query the database for relevant COVID-19 publications.
 
-![Product Name Screen Shot][product-screenshot]
+<img align="center" src="images/term0.png">
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -44,8 +44,10 @@ To get a local copy up and running follow these simple example steps.
    
    <img src="images/term1.png">
    
-6. You can now navigate to the Local URL where your demo app is launched.
+6. You can now navigate to the Local URL where your demo app is launched. You will need to provide the same weaviate cluster name to connect to it.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+7. Enter topics to query COVID related publication with. You can even expand the articles to read thier abstracts!
 
 <!-- FILES INCLUDED -->
 ## Files Included
