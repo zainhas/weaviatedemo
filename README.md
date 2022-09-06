@@ -3,14 +3,15 @@
 <!-- ABOUT THE PROJECT -->
 <h3 align="center">In this project we will upload COVID-19 related academic publications to Weaviate, a vector database, and then query for publications related to specific topics. The goal is to create a tool that can help people search for scientifically accurate articles related to COVID.</h3>
 
+<div align="center">
+![Product Name Screen Shot][product-screenshot]
+</div>
 ### This tutorial will help you understand:
 1. How the weaviate platform works
 2. How to create a weaviate cluster using Weaviate Cloud Services (WCS)
 3. How to create a schema for you data
 4. How to upload data to the weaviate cluster using batches
 5. How we can create a Streamlit app that can be used to query the database for relevant COVID-19 publications.
-
-<img align="center" src="images/term0.png">
 
 <!-- GETTING STARTED -->
 ## Getting Started
