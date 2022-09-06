@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple steps.
    conda install --file requirements.txt
    ```
    
-4. Download that data from this [google drive link](https://drive.google.com/file/d/1mgoiKSavy0GAGdejxfA0yjX-cgTuCUfG/view?usp=sharing) and place it in the `data` folder.
+4. Download the `covid_articles.csv` data file from [here](https://drive.google.com/file/d/1mgoiKSavy0GAGdejxfA0yjX-cgTuCUfG/view?usp=sharing) and place it in the `data` folder.
 
 5. Run the `import.py` file in a terminal, which will ask you for your WCS credentials and to name your weaviate cluster to be created. This script will then create the weaviate cluster and upload data to it.
    ```sh
