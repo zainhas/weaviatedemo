@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 <h3 align="center">In this project we will upload COVID-19 related academic publications to Weaviate, a vector database, and then query for publications related to specific topics. The goal is to create a tool that can help people search for scientifically accurate articles related to COVID.</h3>
 
-[Product Name Screen Shot][product-screenshot]
+[![Product Name Screen Shot][product-screenshot]]
 
 ### This tutorial will help you understand:
 1. How the weaviate platform works
