@@ -29,7 +29,10 @@ To get a local copy up and running follow these simple steps.
    ```sh
    conda install --file requirements.txt
    ```
-4. Run the `import.py` file in a terminal, which will ask you for your WCS credentials and to name your weaviate cluster to be created. This script will then create the weaviate cluster and upload data to it.
+   
+4. Download that data from this [google drive link](https://drive.google.com/file/d/1mgoiKSavy0GAGdejxfA0yjX-cgTuCUfG/view?usp=sharing) and place it in the `data` folder.
+
+5. Run the `import.py` file in a terminal, which will ask you for your WCS credentials and to name your weaviate cluster to be created. This script will then create the weaviate cluster and upload data to it.
    ```sh
    python import.py
    ```
@@ -37,7 +40,7 @@ To get a local copy up and running follow these simple steps.
    
    <img src="images/term0.png">
    
-5. Run the `covidQueryApp.py` streamlit app which will start the streamlit app.
+6. Run the `covidQueryApp.py` streamlit app which will start the streamlit app.
    ```sh
    streamlit run covidQueryApp.py
    ```
@@ -45,9 +48,9 @@ To get a local copy up and running follow these simple steps.
    
    <img src="images/term1.png">
    
-6. You can now navigate to the Local URL where your demo app is launched. You will need to provide the same weaviate cluster name to connect to it.
+7. You can now navigate to the Local URL where your demo app is launched. You will need to provide the same weaviate cluster name to connect to it.
 
-7. Enter topics to query COVID related publication with. You can even expand the articles to read thier abstracts!
+8. Enter topics to query COVID related publication with. You can even expand the articles to read thier abstracts!
 
 <!-- FILES INCLUDED -->
 ## Files Included
